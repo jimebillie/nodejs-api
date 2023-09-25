@@ -13,8 +13,6 @@
 > - ```mongoose```: "^7.5.2",
 > - ```nodemon```: "^3.0.1"
 
----
-
 ### Get Start
 > Change the file name from ```.env.example``` to ```.env```, Then enter a value into each.
 > > **Example** — ```ENV_PORT=1998``` This is the port value entry.

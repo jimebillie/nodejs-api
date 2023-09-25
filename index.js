@@ -33,7 +33,7 @@ app.get("/", (req, res) => {
 
 /**
  * Connect mongoDB. After that server is run.
- * @param {mongoose.connect} Url , Option: Database Name
+ * @param {mongoose.connect} url , Option : dbName
  */
 mongoose.connect(process.env.MONGO_URL,{dbName:process.env.MONGO_DB_NAME}).then(() => {
     app.listen(port, (req, res) => {
@@ -42,6 +42,7 @@ mongoose.connect(process.env.MONGO_URL,{dbName:process.env.MONGO_DB_NAME}).then(
                 "Connect": "Ok",
                 "Port": port,
                 "Database":"mongoDB",
+                "dbName" : process.env.MONGO_DB_NAME
             }
         )
     })

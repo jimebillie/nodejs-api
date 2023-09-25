@@ -36,20 +36,16 @@
 
 <details>
   <summary>Register</summary>
-
-  >
-    >```url :``` http://localhost:1998/api/v1/register <br>
-    >``` method :``` POST <br>
-    >``` body key :``` username, password, name, lastname, email
+  url : http://localhost:1998/api/v1/register <br>
+  method : POST <br>
+  body key : username, password, name, lastname, email
 </details>
 
 <details>
   <summary>Login</summary>
-  
-  >
-    >```url :``` http://localhost:1998/api/v1/login <br>
-    >``` method :``` POST <br>
-    >``` body key :``` username, password
+  url : http://localhost:1998/api/v1/login <br>
+  method : POST <br>
+  body key : username, password
 </details>
 
 
